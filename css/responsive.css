@@ -1,0 +1,229 @@
+@media only screen and (max-width: 1000px) 
+{
+    #info-icon
+    {
+        text-align: right;
+        padding-right: 30px;
+    }
+    
+    #top-nav li
+    {
+        margin: 0px 5px;
+        font-size: 14px;
+    }
+    
+    .navbar-header {
+            float: none;
+        }
+        .navbar-left,.navbar-right {
+            float: none !important;
+        }
+        .navbar-toggle {
+            display: block;
+        }
+        .navbar-collapse {
+            border-top: 1px solid transparent;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+        .navbar-fixed-top {
+            top: 0;
+            border-width: 0 0 1px;
+        }
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+        .navbar-nav {
+            float: none!important;
+            margin-top: 7.5px;
+        }
+        .navbar-nav>li {
+            float: none;
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .collapse.in{
+            display:block !important;
+        }
+    
+    .main_features_content
+    {
+        background-size: cover;
+        min-height: 500px;
+    }
+    
+    .single_features_text
+    {
+        opacity: 1;
+        background-color: aliceblue;
+        min-height: 440px;
+        width: 60%;
+        padding: 30px 40px;
+        margin: 30px auto;
+    }   
+    
+    #phone-app h2, #phone-app h3, #phone-app .description-app
+    {
+        text-align: center;
+    }
+
+    #phone-app h3
+    {
+        margin-top: 30px;
+    }
+    
+    #download
+    {
+        margin: auto;
+        text-align: center;
+    }
+     
+    #footer
+    {
+        background-color: #101010;
+        padding-top: 50px;
+    }
+
+    #footer address,#footer .open
+    {
+        font-size: 16px;
+        color: white;
+        text-align: center;
+    }
+
+    #footer .fb
+    {
+        width: 340px;
+        margin: 20px auto;
+    }
+
+    #footer .footer
+    {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 650px)
+{
+    #info-icon
+    {
+        padding-right: 0px;
+        
+    }
+    
+    #social-icon
+    {
+        padding-right: 0px;
+    }
+    
+    .single_features_text
+    {
+        opacity: 1;
+        background-color: aliceblue;
+        min-height: 440px;
+        width: 100%;
+        padding: 30px 40px;
+        margin: 30px auto;
+    }   
+    
+    .pakeg-one
+    {
+        margin-bottom: 80px;
+        background: url(../image/szampan1.jpg) left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 460px;
+        overflow: hidden;
+    }
+    
+    #phone-app .download:nth-of-type(2)
+    {
+        margin-left: 0px;
+    }
+    
+    .pakeg-one:nth-of-type(2)
+    {
+        background: url(../image/kurczak.jpg) no-repeat right;
+        background-size: cover;
+        height: 460px;
+        overflow: hidden;
+    }
+
+.pakeg-one:nth-of-type(3)
+    {
+        background: url(../image/ciasto2.jpg) no-repeat left;
+        background-size: cover;
+        height: 460px;
+        overflow: hidden;
+    }
+    
+}
+
+@media only screen and (max-width: 580px)
+{
+    #about figure
+    {    
+        width: 360px;
+        height: 260px;
+        position: relative;
+        margin-left: 30px;
+    }
+    
+    .content-text
+    {
+        background-color: white;
+        min-height: 400px;
+        margin: 30px 0px;
+        padding: 30px 30px;
+        width: 100%;
+    }
+    
+    .pakeg-one .content-text ul li
+    {
+        padding: 10px 0px;
+        font-size: 1em;
+    }
+    
+}
+
+@media only screen and (max-width: 480px)
+{
+    #info-icon li:nth-of-type(1)
+    {
+        display: none;
+    }
+    
+    #logo
+    {
+        left: 0px;
+        height: 124px;
+        width: 130px;
+    }
+    
+    #about figure
+    {    
+        width: 250px;
+        height: 200px;
+        position: relative;
+        margin-left: 0px;
+    }
+    
+    #phone-app h2
+    {
+        font-size: 45px;
+    }
+    
+    #phone-app img
+    {
+        width: 90%;
+        height: 90%;
+    }
+    
+    #footer .fb
+    {
+        display: none;
+    }
+    
+}
+
